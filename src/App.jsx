@@ -17,9 +17,11 @@ function App() {
       <Box className='Forms'>   
         <Box className='Line'></Box>  
     <form>
+      <Box className="forms">
+
         <Image width={"60px"} src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjdZufiEkXTPzQhIQm2wxAimRAmZ_dGjBZRSsfjEtONd8s3uU5"></Image>
         <Heading size="md" width={"200px"} fontWeight={500} >{`It's a delight to have you on board`}</Heading>
-        <p style={{margin:"5px"}}>Help us know you better</p>
+        <p style={{margin:"5px"}}>Help us know you better.</p>
         <p style={{width:"160px",textAlign:"center",margin:"5px"}}>{`(This is how we optimeize Wobot as per your business needs)`}</p>
         <div className='mainform'>
           <p>Your name</p>
@@ -47,10 +49,11 @@ function App() {
           </div>
         </div>
         <input type="submit" value={"Get Started"} />
+      </Box>
+    <p>Terms of use | Privacy Policy</p>
     </form>
     <Box className='Line'></Box>
      </Box>
-    <p>Terms of use | Privacy Policy</p>
     </Box>
     </>
   )
